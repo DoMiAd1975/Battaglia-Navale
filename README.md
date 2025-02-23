@@ -34,6 +34,10 @@
     o	Se il colpo è a segno, la nave viene contrassegnata con una X.
     o       Se il colpo è mancato, la casella viene contrassegnata con una O.
     o	Il gioco continua finché un giocatore affonda tutte le navi avversarie.
+    o	Ogni volta che si gioca deve essere stampata a schermo la griglia evidenziando il risultato, 
+            ma evitando di visualizzare la posizione delle navi, ma solo i colpi mancati, i colpi a segno.
+
+    
   
  # Stampa finale delle griglie:
   Alla fine della partita, viene stampata la griglia di ciascun giocatore, 
