@@ -1,19 +1,42 @@
-# Esercizio: Realizzazione del Gioco della Tombola in Java
+# Implementazione del gioco della Battaglia Navale in Java
 
-# Obiettivo: Scrivere un programma in Java che simuli il gioco della Tombola. Il programma dovrà gestire l’estrazione casuale dei numeri, la generazione delle cartelle e il controllo delle vincite (ambo, terno, quaterna, cinquina e tombola).
+# Obiettivo: Realizzare un programma in Java che simuli il gioco della Battaglia Navale in Java, seguendo le regole complete del gioco.
 
-Requisiti:
+# Classe: 3D Informatica
 
-Generazione delle cartelle:
+# Requisiti:
 
-Ogni cartella deve essere composta da 3 righe e 9 colonne. Ogni riga deve contenere 5 numeri casuali unici, rispettando la suddivisione per colonna: Colonna 1: numeri da 1 a 9 Colonna 2: numeri da 10 a 19 Colonna 3: numeri da 20 a 29 … Colonna 9: numeri da 80 a 90 Le celle vuote devono essere rappresentate adeguatamente. Estrazione dei numeri:
+ # Il gioco deve essere giocabile in due modalità:
+    o	Giocatore vs Computer: Il computer posiziona automaticamente le proprie navi e gioca contro il giocatore.
+    o	Giocatore vs Giocatore: Due giocatori inseriscono manualmente le coordinate delle proprie navi e si sfidano.
 
-Il programma deve estrarre numeri casuali da 1 a 90, senza ripetizioni. Dopo ogni estrazione, il numero deve essere mostrato all’utente. Verifica delle vincite:
+ # La griglia di gioco deve essere di dimensione 10x10 e rappresentare i seguenti elementi:
+   
+    o	Acqua (~): celle vuote
+    o	Nave (N): celle contenenti una nave
+    o	Colpo mancato (O): colpo andato a vuoto
+    o	Colpo a segno (X): nave colpita
 
-Dopo ogni estrazione, il programma deve controllare le cartelle e segnalare eventuali vincite: Ambo (2 numeri sulla stessa riga) Terno (3 numeri sulla stessa riga) Quaterna (4 numeri sulla stessa riga) Cinquina (5 numeri sulla stessa riga) Tombola (tutti i numeri della cartella estratti) Interazione con l’utente:
+ # Posizionamento delle navi:
+    o	Ogni giocatore/computer deve posizionare automaticamente o manualmente 5 navi in punti diversi della griglia.
+    o	Le navi possono occupare una o più caselle, seguendo le dimensioni classiche:
+    
+        1 Nave da 5 caselle
+        1 Nave da 4 caselle
+        1 Nave da 3 caselle
+        1 Nave da 3 caselle
+        1 Nave da 2 caselle
 
-Il programma deve consentire all'utente di avviare una nuova partita. Deve stampare le cartelle all'inizio della partita. Dopo ogni estrazione, deve mostrare il numero estratto e le eventuali vincite. Opzionale:
+ # Le navi non possono sovrapporsi e devono essere posizionate orizzontalmente o verticalmente.
 
-Permettere la partecipazione di più giocatori con cartelle diverse. Consegna:
+ # Svolgimento della partita:
+    o	I giocatori si alternano per scegliere una coordinata (riga e colonna) da colpire.
+    o	Se il colpo è a segno, la nave viene contrassegnata con una X.
+    o       Se il colpo è mancato, la casella viene contrassegnata con una O.
+    o	Il gioco continua finché un giocatore affonda tutte le navi avversarie.
+  
+ # Stampa finale delle griglie:
+  Alla fine della partita, viene stampata la griglia di ciascun giocatore, 
+    evidenziando con parentesi (X) le posizioni delle navi affondate.
 
-Il codice deve essere ben commentato e strutturato in classi (es. Cartella, Tombola, Giocatore).  Buon lavoro! 🎲
+Buon lavoro! 🎲
