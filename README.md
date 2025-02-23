@@ -36,11 +36,13 @@
     o	Il gioco continua finché un giocatore affonda tutte le navi avversarie.
     o	Ogni volta che si gioca deve essere stampata a schermo la griglia evidenziando il risultato, 
             ma evitando di visualizzare la posizione delle navi, ma solo i colpi mancati, i colpi a segno.
-
-    
   
  # Stampa finale delle griglie:
   Alla fine della partita, viene stampata la griglia di ciascun giocatore, 
     evidenziando con parentesi (X) le posizioni delle navi affondate.
+
+ # DA SAPERE: 
+ all'interno della cartella src troverete il file Main.java con delle parti di codice mancanti, completare e migliorare il codice già presente.
+ Personalizzarlo a piacimento e commentare le implementazioni effettuate e commentare anche le parti visibili del codice.
 
 Buon lavoro! 🎲
