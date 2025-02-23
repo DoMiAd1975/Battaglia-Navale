@@ -42,7 +42,7 @@
     evidenziando con parentesi (X) le posizioni delle navi affondate.
 
  # DA SAPERE: 
- all'interno della cartella src troverete il file Main.java con delle parti di codice mancanti, completare e migliorare il codice già presente.
+ all'interno della cartella src troverete il file BattagliaNavale.java con delle parti di codice mancanti, completare e migliorare il codice già presente.
  Personalizzarlo a piacimento e commentare le implementazioni effettuate e commentare anche le parti visibili del codice.
 
 Buon lavoro! 🎲
